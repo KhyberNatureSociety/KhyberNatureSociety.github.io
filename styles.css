@@ -2345,6 +2345,13 @@ ul {
         grid-template-columns: 1fr;
         gap: 50px;
     }
+    .carousel-container {
+        padding: 0 30px;
+    }
+    .carousel-card {
+        flex: 0 0 calc((100% - 30px) / 2);
+        min-width: 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -2432,6 +2439,13 @@ ul {
         flex-direction: column;
         text-align: center;
         gap: 15px;
+    }
+    .carousel-container {
+        padding: 0 15px;
+    }
+    .carousel-card {
+        flex: 0 0 100%;
+        min-width: 0;
     }
 }
 
